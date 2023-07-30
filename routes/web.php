@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\FaculEval;
+use App\Http\Controllers\StudentController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,11 +15,11 @@ use App\Http\Controllers\FaculEval;
 */
 
 
-Route::get('', [FaculEval::class, 'index'])->name('index');
+Route::get('', [StudentController::class, 'index'])->name('index');
 Route::get('/index', function () {
-    return view('User_Interface.index');
-})->name('User_Interface.index');
+    return view('User_Interface.student.index');
+})->name('User_Interface.student.index');
 
 Route::get('/evaluate', function () {
-    return view('User_Interface.evaluate');
-})->name('User_Interface.evaluate');
+    return view('User_Interface.student.evaluate');
+})->name('User_Interface.student.evaluate');

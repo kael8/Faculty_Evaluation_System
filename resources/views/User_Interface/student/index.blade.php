@@ -23,8 +23,8 @@
 
 <body>
 
-@include('User_Interface.header')
-@include('User_Interface.sidebar')
+@include('User_Interface.student.header')
+@include('User_Interface.student.sidebar')
 
 
   

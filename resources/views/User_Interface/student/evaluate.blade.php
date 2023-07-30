@@ -23,8 +23,8 @@
 
 <body>
 
-@include('User_Interface.header')
-@include('User_Interface.sidebar')
+@include('User_Interface.student.header')
+@include('User_Interface.student.sidebar')
 
 
   
@@ -35,7 +35,7 @@
       <h1>Evaluate</h1>
       <nav>
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="{{ route('User_Interface.index') }}">Home</a></li>
+          <li class="breadcrumb-item"><a href="{{ route('User_Interface.student.index') }}">Home</a></li>
           <li class="breadcrumb-item active">Dashboard</li>
         </ol>
       </nav>
