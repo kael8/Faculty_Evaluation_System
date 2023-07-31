@@ -10,4 +10,8 @@ class StudentController extends Controller
     {
         return view('User_Interface.student.index');
     }
+    public function evaluate()
+    {
+        return view('User_Interface.student.evaluate');
+    }
 }

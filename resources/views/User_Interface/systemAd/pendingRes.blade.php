@@ -23,8 +23,8 @@
 
 <body>
 
-@include('User_Interface.student.header')
-@include('User_Interface.student.sidebar')
+@include('User_Interface.systemAd.header')
+@include('User_Interface.systemAd.sidebar')
 
 
   
@@ -36,7 +36,7 @@
       <nav>
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="{{ route('User_Interface.student.index') }}">Home</a></li>
-          <li class="breadcrumb-item active">Table</li>
+          <li class="breadcrumb-item active">Dashboard</li>
         </ol>
       </nav>
     </div><!-- End Page Title -->
@@ -118,16 +118,16 @@
 
   <!-- Vendor JS Files -->
   <script src="{{ asset('assets/vendor/apexcharts/apexcharts.min.js') }}" defer></script>
-<script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}" defer></script>
-<script src="{{ asset('assets/vendor/chart.js/chart.umd.js') }}" defer></script>
-<script src="{{ asset('assets/vendor/echarts/echarts.min.js') }}" defer></script>
-<script src="{{ asset('assets/vendor/quill/quill.min.js') }}" defer></script>
-<script src="{{ asset('assets/vendor/simple-datatables/simple-datatables.js') }}" defer></script>
-<script src="{{ asset('assets/vendor/tinymce/tinymce.min.js') }}" defer></script>
-<script src="{{ asset('assets/vendor/php-email-form/validate.js') }}" defer></script>
+  <script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}" defer></script>
+  <script src="{{ asset('assets/vendor/chart.js/chart.umd.js') }}" defer></script>
+  <script src="{{ asset('assets/vendor/echarts/echarts.min.js') }}" defer></script>
+  <script src="{{ asset('assets/vendor/quill/quill.min.js') }}" defer></script>
+  <script src="{{ asset('assets/vendor/simple-datatables/simple-datatables.js') }}" defer></script>
+  <script src="{{ asset('assets/vendor/tinymce/tinymce.min.js') }}" defer></script>
+  <script src="{{ asset('assets/vendor/php-email-form/validate.js') }}" defer></script>
 
-<!-- Template Main JS File -->
-<script src="{{ asset('assets/js/main.js') }}" defer></script>
+  <!-- Template Main JS File -->
+  <script src="{{ asset('assets/js/main.js') }}" defer></script>
 
 </body>
 

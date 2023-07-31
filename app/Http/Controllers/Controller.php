@@ -13,6 +13,6 @@ class Controller extends BaseController
 
     public function index()
     {
-        return view('User_Interface.index');
+        return view('User_Interface.student.index');
     }
 }
